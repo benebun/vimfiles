@@ -87,6 +87,9 @@ nmap <leader>a <Esc>:Ack!
 " update the system settings from my vimrc file
 map <leader>u :source $VIMRC<cr>
 
+" switch to previous buffer
+map <C-Tab> :b#<CR>
+
 filetype plugin indent on
 
 " automatically open syntastic location list
