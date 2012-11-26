@@ -2,6 +2,12 @@
 runtime bundle/pathogen/autoload/pathogen.vim
 call pathogen#infect()
 
+set nocompatible
+
+" avoid invisible empty line at the end
+set binary
+set noeol
+
 autocmd FileType scss,css,dtml,xml,html,django,htmldjango set tabstop=2 shiftwidth=2
 autocmd FileType js,javascript,python,python.django set tabstop=4 shiftwidth=4
 
@@ -13,7 +19,6 @@ let g:session_autoload = 1
 
 set autoindent
 set expandtab
-set nocompatible
 set background=dark
 "if has("win32")
 "  set guifont=ProFontWindows:h9
@@ -45,10 +50,6 @@ set tabstop=2
 set undofile
 set wildmenu
 set wrapscan
-
-" avoid invisible empty line at the end
-set binary
-set noeol
 
 " shortcuts
 nnoremap <silent> <F9> :NERDTreeToggle<CR>
@@ -86,7 +87,7 @@ map <leader>u :source $VIMRC<cr>
 
 filetype plugin indent on
 
-" automatically open syntastic location list 
+" automatically open syntastic location list
 let g:syntastic_auto_loc_list=1
 let g:syntastic_mode_map = { 'mode': 'passive',
                            \ 'active_filetypes': [],
