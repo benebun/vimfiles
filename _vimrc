@@ -79,6 +79,7 @@ nnoremap * #
 let g:solarized_contrast="high"
 color solarized
 
+let g:explVertical=1
 let NERDTreeIgnore = ['\.pyc$']
 let NERDTreeIgnore += ['__init__.py']
 
