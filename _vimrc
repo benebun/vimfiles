@@ -28,6 +28,8 @@ set gdefault
 set guifont=ProFont\ 8
 set hidden
 set hlsearch
+" show status line in reverse video
+set highlight=sr
 set ignorecase
 set incsearch
 " always show status line
