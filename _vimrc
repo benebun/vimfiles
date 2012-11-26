@@ -33,7 +33,7 @@ set incsearch
 " always show status line
 set laststatus=2
 set list
-set listchars=tab:⚡⚡,trail:⚡
+set listchars=tab:▸\ ,eol:¬
 set nobackup
 set nowritebackup
 " minimal lines above and below cursor
