@@ -8,6 +8,8 @@ autocmd FileType js,javascript,python,python.django set tabstop=4 shiftwidth=4
 let $VIMRC='/media/Storage/Application Data/Vim/vimfiles/_vimrc'
 let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 let g:session_directory='~/.vim/sessions'
+let g:session_autosave = 1
+let g:session_autoload = 1
 
 set autoindent
 set expandtab
@@ -34,6 +36,11 @@ set showbreak=@
 set showmatch
 set smartcase
 set smarttab
+" do not store global and local values in a session
+set ssop-=options
+" do not store folds
+set ssop-=folds
+
 set tabstop=2
 set undofile
 set wildmenu
@@ -79,6 +86,8 @@ map <leader>u :source $VIMRC<cr>
 
 filetype plugin indent on
 
-let g:session_autosave = 1
-let g:session_autoload = 1
-
+" automatically open syntastic location list 
+let g:syntastic_auto_loc_list=1
+let g:syntastic_mode_map = { 'mode': 'passive',
+                           \ 'active_filetypes': [],
+                           \ 'passive_filetypes': [] }
