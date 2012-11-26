@@ -32,7 +32,6 @@ set ignorecase
 set incsearch
 " always show status line
 set laststatus=2
-set list
 set listchars=tab:▸\ ,eol:¬
 set nobackup
 set nowritebackup
