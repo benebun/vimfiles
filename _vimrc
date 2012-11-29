@@ -56,6 +56,7 @@ set wrapscan
 
 " shortcuts
 nnoremap <silent> <F9> :NERDTreeToggle<CR>
+nnoremap <silent> <F10> :SyntasticToggleMode<CR>
 nnoremap <silent> <F11> :set list!<CR>
 nnoremap <silent> <F12> :set nu!<CR>
 
