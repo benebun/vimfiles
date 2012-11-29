@@ -84,6 +84,7 @@ color solarized
 let g:explVertical=1
 let NERDTreeIgnore = ['\.pyc$']
 let NERDTreeIgnore += ['__init__.py']
+let NERDTreeMinimalUI=1
 
 nmap <leader>a <Esc>:Ack!
 
