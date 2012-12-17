@@ -73,6 +73,10 @@ nnoremap <leader><space> :noh<cr>
 nnoremap <tab> %
 vnoremap <tab> %
 
+" Omnicomplete
+" use Ctr-Space
+imap <C-Space> <C-x><C-o>
+
 " switch backward search with forward (easier for german keyboard)
 nnoremap # *
 nnoremap * #
