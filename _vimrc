@@ -35,6 +35,11 @@ set incsearch
 " always show status line
 set laststatus=2
 set listchars=tab:▸\ ,eol:¬
+
+" don't use '-' character as keyword character
+" helpful when using css classes with '-'
+set iskeyword+=-
+
 set nobackup
 set nowritebackup
 " minimal lines above and below cursor
