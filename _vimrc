@@ -55,6 +55,8 @@ set smarttab
 set ssop-=options
 " do not store folds
 set ssop-=folds
+" split windows on the right
+set spr
 
 set tabstop=2
 set undofile
