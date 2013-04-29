@@ -4,10 +4,6 @@ call pathogen#infect()
 
 set nocompatible
 
-" avoid invisible empty line at the end
-set binary
-set noeol
-
 au BufNewFile,BufRead *.dtml setf dtml
 
 autocmd FileType scss,css,dtml,xml,html,django,htmldjango set tabstop=2 shiftwidth=2
