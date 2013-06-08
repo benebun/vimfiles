@@ -22,3 +22,6 @@
 [submodule "bundle/session"]
 	path = bundle/session
 	url = https://github.com/xolox/vim-session
+[submodule "LaTeX-Box"]
+	path = LaTeX-Box
+	url = git://github.com/LaTeX-Box-Team/LaTeX-Box.git
