@@ -38,8 +38,10 @@ set listchars=tab:▸\ ,eol:¬
 " helpful when using css classes with '-'
 set iskeyword+=-
 
-set nobackup
-set nowritebackup
+"
+set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+set undodir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 " minimal lines above and below cursor
 set scrolloff=3
 set shiftwidth=2
