@@ -14,3 +14,19 @@ snippet help "Add helptips"
 <i class="helptip_handler${1: helptip_${2:tl/bl/br}}" data-msg="${3}">
 ${4}</i>
 endsnippet
+
+snippet dl "Definition list"
+<dl>
+	<dt>${1:Term}</dt>
+	<dd>
+    ${2:Description}
+  </dd>
+</dl>
+endsnippet
+
+snippet dt "Definition Item"
+<dt>${1:Term}</dt>
+<dd>
+  ${2:Description}
+</dd>
+endsnippet
