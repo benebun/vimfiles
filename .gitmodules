@@ -1,28 +1,28 @@
 [submodule "bundle/pathogen"]
-	path = bundle/pathogen
-	url = https://github.com/tpope/vim-pathogen
+  path = bundle/pathogen
+  url = https://github.com/tpope/vim-pathogen
 [submodule "bundle/solarized"]
-	path = bundle/solarized
-	url = https://github.com/altercation/vim-colors-solarized
+  path = bundle/solarized
+  url = https://github.com/altercation/vim-colors-solarized
 [submodule "bundle/syntastic"]
-	path = bundle/syntastic
-	url = https://github.com/scrooloose/syntastic
+  path = bundle/syntastic
+  url = https://github.com/scrooloose/syntastic
 [submodule "bundle/command-t"]
-	path = bundle/command-t
-	url = https://github.com/wincent/Command-T.git
+  path = bundle/command-t
+  url = https://github.com/wincent/Command-T.git
 [submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
+  path = bundle/nerdtree
+  url = https://github.com/scrooloose/nerdtree.git
 [submodule "bundle/ultisnips"]
-	path = bundle/ultisnips
-	url = https://github.com/SirVer/ultisnips
+  path = bundle/ultisnips
+  url = https://github.com/SirVer/ultisnips
 [submodule "bundle/ack"]
-	path = bundle/ack
-	url = https://github.com/mileszs/ack.vim.git
+  path = bundle/ack
+  url = https://github.com/mileszs/ack.vim.git
 [submodule "bundle/session"]
-	path = bundle/session
-	url = https://github.com/xolox/vim-session
+  path = bundle/session
+  url = https://github.com/xolox/vim-session
   ignore = dirty
 [submodule "bundle/LaTeX-Box"]
-	path = bundle/LaTeX-Box
-	url = git://github.com/LaTeX-Box-Team/LaTeX-Box.git
+  path = bundle/LaTeX-Box
+  url = git://github.com/LaTeX-Box-Team/LaTeX-Box.git
