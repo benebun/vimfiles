@@ -22,6 +22,7 @@
 [submodule "bundle/session"]
 	path = bundle/session
 	url = https://github.com/xolox/vim-session
+  ignore = dirty
 [submodule "bundle/LaTeX-Box"]
 	path = bundle/LaTeX-Box
 	url = git://github.com/LaTeX-Box-Team/LaTeX-Box.git
