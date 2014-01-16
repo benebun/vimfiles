@@ -21,9 +21,10 @@ set background=dark
 "if has("win32")
 "  set guifont=ProFontWindows:h9
 "else
+set guifont=ProFont
 set foldmethod=indent
+set nofoldenable
 set gdefault
-set guifont=ProFont\ 8
 set hidden
 set hlsearch
 " show status line in reverse video
