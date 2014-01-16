@@ -8,6 +8,9 @@ au BufNewFile,BufRead *.dtml setf dtml
 
 autocmd FileType scss,css,dtml,xml,html,django,htmldjango set tabstop=2 shiftwidth=2
 autocmd FileType js,javascript,python,python.django set tabstop=4 shiftwidth=4
+autocmd FileType tex setlocal spell
+
+set spelllang=en_gb,de_at
 
 let $VIMRC='/media/Storage/Application Data/Vim/vimfiles/_vimrc'
 let g:ackprg="ack-grep -H --nocolor --nogroup --column"
