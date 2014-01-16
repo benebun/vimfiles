@@ -88,6 +88,9 @@ imap <C-Space> <C-x><C-o>
 nnoremap # *
 nnoremap * #
 
+" set terminal colors for vim
+set t_Co=16
+
 " solarized
 let g:solarized_contrast="high"
 color solarized
