@@ -88,6 +88,9 @@ vnoremap <tab> %
 " use Ctr-Space
 imap <C-Space> <C-x><C-o>
 
+" insert new line between curly brackets, if hit Enter after {
+inoremap {<CR> {<CR>}<C-o>O
+
 " switch backward search with forward (easier for german keyboard)
 nnoremap # *
 nnoremap * #
