@@ -10,6 +10,8 @@ autocmd FileType scss,css,dtml,xml,html,django,htmldjango set tabstop=2 shiftwid
 autocmd FileType js,javascript,python,python.django set tabstop=4 shiftwidth=4
 autocmd FileType tex setlocal spell
 
+autocmd FileType htmldjango set commentstring={#\ %s\ #}
+
 set spelllang=en_gb,de_at
 
 let $VIMRC='/media/Storage/Application Data/Vim/vimfiles/_vimrc'
