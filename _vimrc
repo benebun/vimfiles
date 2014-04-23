@@ -6,12 +6,6 @@ set nocompatible
 
 au BufNewFile,BufRead *.dtml setf dtml
 
-autocmd FileType scss,css,dtml,xml,html,django,htmldjango set tabstop=2 shiftwidth=2
-autocmd FileType js,javascript,python,python.django set tabstop=4 shiftwidth=4
-autocmd FileType tex setlocal spell
-
-autocmd FileType htmldjango set commentstring={#\ %s\ #}
-
 set spelllang=en_gb,de_at
 
 let $VIMRC='/media/Storage/Application Data/Vim/vimfiles/_vimrc'
@@ -124,3 +118,10 @@ let g:syntastic_auto_loc_list=1
 let g:syntastic_mode_map = { 'mode': 'passive',
                            \ 'active_filetypes': [],
                            \ 'passive_filetypes': [] }
+
+autocmd FileType scss,css,dtml,xml,html,django,htmldjango set tabstop=2 shiftwidth=2
+autocmd FileType js,javascript,python,python.django set tabstop=4 shiftwidth=4
+autocmd FileType tex setlocal spell
+
+autocmd FileType htmldjango set commentstring={#\ %s\ #}
+
