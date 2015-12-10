@@ -67,6 +67,9 @@ nnoremap <silent> <F10> :SyntasticToggleMode<CR>
 nnoremap <silent> <F11> :set list!<CR>
 nnoremap <silent> <F12> :set nu!<CR>
 
+nnoremap <F5> "=strftime("%a, %d.%m.%Y")<CR>P
+inoremap <F5> <C-R>=strftime("%a, %d.%m.%Y")<CR>
+
 " move lines even when they wrap
 nnoremap j gj
 nnoremap k gk
