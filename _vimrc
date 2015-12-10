@@ -33,6 +33,8 @@ set incsearch
 " always show status line
 set laststatus=2
 set listchars=tab:▸\ ,eol:¬
+" show character count and scroll percentage
+set ruler
 
 " don't use '-' character as keyword character
 " helpful when using css classes with '-'
