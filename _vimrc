@@ -106,6 +106,12 @@ let NERDTreeIgnore = ['\.pyc$']
 let NERDTreeIgnore += ['__init__.py']
 let NERDTreeMinimalUI=1
 
+" Ignore node_modules files for Command-T search
+set wildignore+=node_modules/**/*
+
+" Ignore public folder for Command-T search
+set wildignore+=*/public/**/*
+
 nmap <leader>a <Esc>:Ack!
 
 " update the system settings from my vimrc file
