@@ -1,8 +1,8 @@
+set nocompatible
+
 " pathogen
 runtime bundle/pathogen/autoload/pathogen.vim
-call pathogen#infect()
-
-set nocompatible
+execute pathogen#infect()
 
 au BufNewFile,BufRead *.dtml setf dtml
 
