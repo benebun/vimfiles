@@ -42,7 +42,7 @@ set iskeyword+=-
 
 "
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
-set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+set directory=~/.vim-tmp//,~/.tmp//,~/tmp//,/var/tmp//,/tmp//
 set undodir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 " minimal lines above and below cursor
 set scrolloff=3
